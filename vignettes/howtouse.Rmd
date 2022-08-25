@@ -1,0 +1,25 @@
+---
+title: "How to Use This RStudio Add-in"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How to Use This RStudio Add-in}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(hashpipe)
+```
+
+Install this package with `remotes::install_github("smach/hashpipe, build_vignettes = TRUE")`. It will install the package and add an RStudio add-in called hashpipe to your RStudio. All the add-in does is type '#| ' (without the quotes) at your current cursor position.
+
+To assign this to a keyboard shortcut, go to Choose Tools > Modify Keyboard Shortcuts in RStudio. Search for the hashpipe add-in, click next to the name, type in the keyboard shortcut you want, and press Apply. 
+
+Want to write your own RStudio add-in? Check out my _InfoWorld_ tutorial ["Do more with R: Write your own RStudio addins"](https://www.infoworld.com/article/3336059/do-more-with-r-write-your-own-rstudio-addins.html).

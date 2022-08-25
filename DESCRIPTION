@@ -1,0 +1,18 @@
+Package: hashpipe
+Title: RStudio Add-In to Create a Hashpipe
+Version: 1.0.0.0
+Authors@R: 
+    person("Sharon", 
+           "Machlis", 
+            email = "sharon_machlis@idg.com", 
+            role = c("aut", "cre")
+            )
+Description: This package has a single function hashpipe() that creates an RStudio add-in so you can assign it to a keyboard shortcut
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

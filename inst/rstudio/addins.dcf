@@ -1,0 +1,4 @@
+Name: hashpipe
+Description: Adds #| in your console
+Binding: hashpipe
+Interactive: false
