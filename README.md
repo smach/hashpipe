@@ -14,7 +14,7 @@ Install this package with `remotes::install_github("smach/hashpipe", build_vigne
 
 All the add-in does is type '#| ' (without the quotes) at your current cursor position.
 
-To assign this to a keyboard shortcut, go to _Choose Tools > Modify Keyboard Shortcuts_ in RStudio. Search for the hashpipe add-in, click next to the name, type in the keyboard shortcut you want, and press Apply. 
+To assign this to a keyboard shortcut, go to _Tools > Modify Keyboard Shortcuts_ in RStudio. Search for the hashpipe add-in, click next to the name, type in the keyboard shortcut you want, and press Apply. 
 
 ## More info
 
