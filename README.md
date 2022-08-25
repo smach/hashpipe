@@ -8,7 +8,7 @@ The goal of hashpipe is to let you assign a keyboard shortcut to type a '#| ' --
 
 ## Installation
 
-Install this package with `remotes::install_github("smach/hashpipe, build_vignettes = TRUE")`. It will install the package and add an RStudio add-in called hashpipe to your RStudio.
+Install this package with `remotes::install_github("smach/hashpipe", build_vignettes = TRUE)`. It will install the package and add an RStudio add-in called hashpipe to your RStudio.
 
 ## How to use
 
