@@ -16,3 +16,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/smach/hashpipe
+BugReports: https://github.com/smach/hashpipe/issues
